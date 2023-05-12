@@ -14,9 +14,13 @@ print(f"Hello Mr. {lastName}")
 print(f"{firstName} has {age} years old")
 
 #Users can insert text using input
-favoriteColor= input("Please insert your favorite color: ")
+favoriteColor = input("Please insert your favorite color: ")
 print(F"Mr. {lastName} favorite color is {favoriteColor}")
 
 #Exercise
 #Create a program to create your beer branch name
 print("Your beer name could be: "+favoriteColor+lastName)
+
+#Format- Print variables
+print(f"Your beer name could be: {favoriteColor}{lastName}")
+print("Your beer name could be: {}{}".format(favoriteColor,lastName))

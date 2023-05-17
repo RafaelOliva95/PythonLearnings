@@ -40,7 +40,7 @@ print(f"Round down {x}/{y} = {x//y}")
 #Round and select the quantity of decimals
 print(f"Round {x}/{y}={round(x/y,3)}")
 
-#Proyect- Calculate the commission for a seller that get 13% of the ammount saled
+#Project- Calculate the commission for a seller that get 13% of the ammount saled
 name=input("What is your name: ")
 sales= input("How much gain did you get: ")
 sales=float(sales)

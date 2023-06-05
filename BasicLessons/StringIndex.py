@@ -45,3 +45,26 @@ print(myString[-11]) #We will print 'n'
 #We also can find strings inside strings
 result=myString.index("Python") #Python start at index 13
 print(result)
+
+#We can also specify parameters like start 
+result=myString.index("n",9,15) #it will start looking n from index 9 to 15
+print(result)
+
+result=myString.rindex("n",9) #rindex will start looking from right to left
+print(result)
+
+""" Slicing:
+It can help us to create substrings 
+myString[start_index:end_index:jumps] 
+We can avoid them some of them 
+In the case we avoid start_index it will start from the beginning
+If we avoid end_index it will finish at the very end
+If we don't put a jump it will do it one by one
+*Note: If we put a negative jump it will do it from right to left
+ """
+myString="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+print(myString[5:])     #We print from index 5 to the end
+print(myString[5:10])   #We print from index 5 to 10
+print(myString[5:15:2]) #We print from index 5 to 10 every 2 characters
+print(myString[::-1])   #We print string backwards
+

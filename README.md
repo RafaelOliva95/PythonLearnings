@@ -1,2 +1,2 @@
 # PythonLearnings
-Python Concepts to consult when get stuck
+Python concepts to refer to when get stuck

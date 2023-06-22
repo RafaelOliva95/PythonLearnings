@@ -40,8 +40,23 @@ print(f"Round down {x}/{y} = {x//y}")
 #Round and select the quantity of decimals
 print(f"Round {x}/{y}={round(x/y,3)}")
 
-#Project- Calculate the commission for a seller that get 13% of the ammount saled
-name=input("What is your name: ")
-sales= input("How much gain did you get: ")
-sales=float(sales)
-print(f"The commission for {name} is {round(sales*0.13,2)}")
+
+#Comparison Operators
+#>, <, <=, >=, ==, !=
+#Logic Operators
+#AND, OR, Not 
+my_bool= 4<5 and 9>8
+print (my_bool)
+my_bool= 'risk' in 'The biggest risk of all, is not taking one'
+print (my_bool)
+
+#Flow Control
+#if, elif, else
+my_pet=input("Which pet do you have: ")
+my_pet=my_pet.lower()
+if my_pet =='dog'or my_pet =='cat':
+    print("You have a beautiful pet")
+elif my_pet=='fish':
+    print("It is a great swimmer")
+else: 
+    print("It is an special pet")

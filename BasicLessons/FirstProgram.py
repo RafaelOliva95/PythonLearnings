@@ -24,3 +24,9 @@ print("Your beer name could be: "+favoriteColor+lastName)
 #Format- Print variables
 print(f"Your beer name could be: {favoriteColor}{lastName}")
 print("Your beer name could be: {}{}".format(favoriteColor,lastName))
+
+#Project- Calculate the commission for a seller that get 13% of the ammount saled
+name=input("What is your name: ")
+sales= input("How much gain did you get: ")
+sales=float(sales)
+print(f"The commission for {name} is {round(sales*0.13,2)}")
